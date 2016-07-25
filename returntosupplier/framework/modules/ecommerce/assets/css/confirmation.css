@@ -1,0 +1,60 @@
+.cart.confirm h2 {
+    margin:5px 0;
+}
+
+.cart.confirm .next {
+    float:right;
+    color: #fff;
+}
+
+.order-total {
+
+}
+
+.billinginfo .address-info,
+.billinginfo .payment-info {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    vertical-align:top;
+    width:100%;
+}
+
+.shippinginfo {
+    clear:both;
+}
+
+.purchased-items,
+.purchased-totals {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    vertical-align:top;
+    width:80%;
+}
+.purchased-totals {
+    width:18%;
+}
+
+.purchased-totals {
+    width:18%;
+    float:right;
+}
+
+.purchased-totals table {
+    float:right;
+}
+
+
+.exp-ecom-table table td.totals {
+    text-align:right;
+    width:10%;
+}
+.exp-ecom-table table td.right {
+    text-align:right;
+    width:90%;
+}
+
+.address span {
+    display:block;
+}

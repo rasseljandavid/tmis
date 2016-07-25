@@ -1,0 +1,61 @@
+.build-report {
+    margin-top:10px;
+}
+
+
+.build-report .control {
+    padding:0;
+    margin:0;
+    float:left;
+}
+
+.build-report .control .label {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    vertical-align:top;
+    width:200px;
+    padding:5px 10px;
+    text-align:right;
+    font-size:90%;
+	white-space: normal;
+    line-height: normal;
+}
+
+.build-report .control.radio .label {
+    display: inline;
+}
+
+.build-report .control .text {
+/*    width:300px;
+*/
+}
+
+.build-report .control .select {
+    margin:4px 10px 0 0;
+}
+
+.build-report .control.collapse .label {
+    display:none;
+}
+
+.build-report .control.collapse.prn .text,
+.build-report .control.collapse.ppn .text {
+    width:184px;
+}
+
+.build-report .control.collapse.orn {
+    margin-left:10px;
+}
+
+.build-report .control.collapse.orn .text {
+    width:187px;
+}
+
+.build-report .radiogroup-control {
+    width:310px;
+}
+
+#submit-report {
+    margin-left:300px;
+}

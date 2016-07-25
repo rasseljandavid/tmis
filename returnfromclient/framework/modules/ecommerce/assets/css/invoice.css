@@ -1,0 +1,137 @@
+#tab1 {
+    position:relative;
+}
+
+#buttons {
+    margin-bottom:20px;
+    text-align:right;
+}
+
+#invoice {
+    position:relative;
+    color:#000000;
+}
+
+
+#invoice table {
+    width:100%;
+    border-bottom:1px solid #ccc;    
+}
+
+#invoice table.payment-info
+{
+    table-layout: fixed;
+}
+
+#invoice table thead tr {
+   	background: #fff;
+}
+
+#invoice table td,
+#invoice table th {
+    text-align:left;
+    vertical-align:top;
+}
+
+#invoice table td {
+    background:#fff;
+}
+
+#invoice .email{
+    word-wrap: break-word;
+}
+
+#invoice address span {
+    display:block;
+}
+
+#invoice .div-rows div.even,
+#invoice tr.even td {
+    background:#fff;
+}
+
+#invoice .div-rows div.odd,
+#invoice tr.odd td {
+    background:#eee;
+}
+
+#invoice .payment-info th,
+#invoice .shipping-info th {
+    width:50%;
+}
+
+#invoice .div-rows {
+    padding:0px;
+}
+
+#invoice .div-rows div span.pmt-label {
+    display:inline-block;
+    text-align:right;
+    /*width:50%;*/
+    padding:5px;
+    font-weight:bold;
+    color:#555555;
+}
+
+#invoice .div-rows div span.pmt-value {
+    font-style:italic;
+}
+
+#billinfo table {
+    width:100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#billinfo table thead tr {
+    background:url(../images/ecom-sprite.png) repeat-x;
+}
+
+#billinfo table td,
+#billinfo table th {
+    text-align:left;
+    vertical-align:top;
+}
+
+#billinfo table td {
+    background:#edffdf;
+}
+
+#search_stringControl {
+    position:relative;
+    height:30px;
+}
+
+#search_stringControl #add_new_item {
+    /*position:absolute;*/
+    /*top:0;*/
+    /*right:0;*/
+    width:515px;      
+}
+
+#bd #search_stringControl .yui-ac-content { 
+  max-height:400px;
+  width:500px;
+  padding-right: 15px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#invoice #create_new_order #search_stringControl #search_internal{
+    width:515px;      
+}
+#invoice #create_new_order #search_stringControl #search_external{
+    width:515px;      
+}
+
+.exp-dropmenu ul, .extra-data ul {
+	margin-top : 0;
+	margin-bottom: 0;
+}
+
+#invoice .order-info thead th,#invoice .payment-info thead th,#invoice .order-items, #invoice .totals-info thead th {
+	color: #000;
+}
+
+#order #buttons {margin-bottom: 0;}
+
+.order-info th {text-align: left;}

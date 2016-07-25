@@ -1,0 +1,83 @@
+.module.purchaseorder {
+    position:relative;
+}
+
+.module.purchaseorder .module-actions,
+.module.purchaseorder .filters {
+    margin-bottom:20px;
+}
+
+
+.module.purchaseorder .filters .control {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    vertical-align:top;
+    padding-right:10px;
+}
+
+
+.module.purchaseorder #vendorinfo {
+    margin-bottom:20px;
+}
+
+.module.purchaseorder .controlrow {
+    background:#dedede;
+}
+
+
+.module.purchaseorder .loadingdiv {
+    background-position:50% 100%;
+    padding:0 0 20px 0;
+}
+
+#vendorSelectControl {
+    position:absolute;
+    right:0;
+    top:0;
+    text-align:right;
+}
+
+.module.purchaseorder #vendorinfo .loadingdiv {
+    background-position:0% 100%;
+    text-align:left;
+    padding:0 0 20px 10px;
+}
+
+.purchaseorder.manage .leftcol {
+	float: left;
+    padding-top: 20px;
+    width: 20%;
+}
+
+.purchaseorder.manage .leftcol h2 {
+	margin: 0;
+}
+
+.purchaseorder.manage .leftcol ul {
+	margin: 10px 0;
+}
+
+.purchaseorder.manage .leftcol ul li {
+	margin: 5px 0;
+	list-style: none;
+	padding-left: 5px;
+}
+
+.purchaseorder.manage .leftcol ul li.current {
+	list-style: url("../images/bullet.gif");
+}
+
+.purchaseorder.manage .leftcol ul li a {
+	text-decoration: none;
+}
+
+.purchaseorder.manage .leftcol ul li a:hover, .purchaseorder.manage .leftcol ul li.current a{
+	text-decoration: underline;
+}
+
+.purchaseorder.manage .rightcol {
+	float: right;
+    padding-top: 20px;
+    width: 80%;
+}

@@ -1,0 +1,77 @@
+.exp-container.edit form {
+    position:relative;
+}
+
+.exp-container.edit #recyclebin {
+    padding:5px;
+    padding:3px 0 3px 5px;
+    text-align:left;
+}
+
+.exp-container.edit #recyclebin.disabled label {
+    color:#777777;
+}
+
+.exp-container.edit #recyclebin.disabled a {
+    color:#777777;
+}
+
+.exp-container.edit #browse-bin {
+    display:block;
+    margin:3px 0 3px 170px;
+    padding:4px 0 4px 28px;
+    background:url(../images/trashcan_full.png) no-repeat;
+}
+.exp-container.edit #recyclebin.disabled a {
+    text-decoration:none;
+    margin:3px 0 3px 170px;
+    padding:4px 0 4px 28px;
+    background:url(../images/trashcan_full_grey.png) no-repeat;
+}
+
+.exp-container.edit .control label {
+    display:block;
+    font-weight:bold;
+    margin:2px 0;
+}
+
+.exp-container.edit .using-rb {
+    background:url(../../../recyclebin/assets/images/usingrb-check.png) no-repeat 70px 0;
+    padding-right:25px;
+}
+.exp-container.edit .text {
+    width:250px;
+    /*height:20px;*/
+}
+.exp-container.edit .select {
+    /*width:255px;*/
+    /*height:25px;*/
+}
+
+.exp-container.edit option {
+    /*padding:3px;*/
+}
+
+.exp-container.edit .control.buttongroup {
+    padding-left:175px;
+}
+
+.exp-container.edit .control label {
+    float:left;
+    text-align:right;
+    width:140px;
+    padding:0 15px;
+}
+
+.exp-container.edit .control .control-desc {
+    margin-left: 170px;
+}
+
+.containermodule.edit .control .control-desc {
+    margin-left: 170px;
+}
+
+#moduleViewConfig h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}

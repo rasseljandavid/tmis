@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>Tienda v2.2.2</title>
+    <parser>
+        <default-category-name>API Documentation</default-category-name>
+        <default-package-name>Framework</default-package-name>
+        <target>../exponent-api/phpdoc</target>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>../exponent-api</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>../exponent-api/phpdoc/log/{DATE}.log</default>
+            <errors>../exponent-api/phpdoc/log/{DATE}.errors.log</errors>
+        </paths>
+    </logging>
+    <transformations>
+         <template name="responsive" />
+    </transformations>
+    <files>
+        <directory>.</directory>
+        <ignore>external/*</ignore>
+        <ignore>tmp/*</ignore>
+        <ignore>framework/conf/data/extra_phrases.php</ignore>
+        <ignore>framework/core/lang/*</ignore>
+        <ignore>framework/modules/pixidou/*</ignore>
+        <ignore>framework/modules/news/models/SimplePie.php</ignore>
+    </files>
+</phpdoc>
